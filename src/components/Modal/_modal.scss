@@ -1,0 +1,284 @@
+.close{
+    position: absolute;
+    left: 92%;
+    top: 15%;
+    border: none;
+    background: transparent;
+    color: var(--btn-bg_color);
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.form{
+    width: 100%;
+    height: 19vh;
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    padding: 60px 20px;
+    background-image: url('../../../src/assets/images/formBG.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    border-radius: 40px;
+    .form-text{
+        font-size: 18px;
+        line-height: 22px;
+        color: var(--btn-bg_color);
+        text-transform: uppercase;
+        font-weight: 700;
+        margin: 0;
+    }
+    .form-title{
+        width: 875px;
+        font-size: 40px;
+        line-height: 56px;
+        font-weight: 700;
+        color: var(--text-color_section);
+        text-transform: uppercase;
+        margin: 0;
+        margin: 10px 0;
+    }
+    .text{
+        width: 590px;
+        font-size: 18px;
+        line-height: 25px;
+        font-weight: 500;
+        color: var(--text-color_section);
+        margin: 15px 0;;
+    }
+    .form-form{
+        width: 500px;
+        display: flex;
+        label{
+            font-size: 18px;
+            line-height: 25px;
+            font-weight: 500;
+            margin-right: 50px;
+        }
+        input{
+            width: 345px;
+            height: 50px;
+            border-radius: 20px 5px 20px 5px;
+            border: 1px solid var(--input-border);
+            color: var(--text-color_section);
+            padding: 0 10px;
+            input::placeholder{
+                font-size: 16px;
+                line-height: 20px;
+                font-weight: 500;
+            }
+        }
+    }
+    .form-btn{
+        width: 201px;
+        height: 65px;
+        border-radius: 30px 5px 30px 5px;
+        text-align: center;
+        text-transform: uppercase;
+        color: var(--text-color_section);
+        background-color: var(--btn-bg_color);
+        border: none;
+        margin: 20px 0;
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 700;
+    }
+}
+
+@media only screen and (max-width: 1350px){
+    .form{
+        width: 100%;
+        height: 19vh;
+        font-family: 'Inter', sans-serif;
+        text-align: left;
+        padding: 60px 20px;
+        background-image: url('../../../src/assets/images/formBG.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        border-radius: 40px;
+        .form-text{
+            font-size: 18px;
+            line-height: 22px;
+            color: var(--btn-bg_color);
+            text-transform: uppercase;
+            font-weight: 700;
+            margin: 0;
+        }
+        .form-title{
+            width: 875px;
+            font-size: 40px;
+            line-height: 56px;
+            font-weight: 700;
+            color: var(--text-color_section);
+            text-transform: uppercase;
+            margin: 0;
+            margin: 10px 0;
+        }
+        .text{
+            width: 590px;
+            font-size: 18px;
+            line-height: 25px;
+            font-weight: 500;
+            color: var(--text-color_section);
+            margin: 15px 0;;
+        }
+        .form-form{
+            width: 500px;
+            display: flex;
+            label{
+                font-size: 18px;
+                line-height: 25px;
+                font-weight: 500;
+                margin-right: 50px;
+            }
+            input{
+                width: 345px;
+                height: 50px;
+                border-radius: 20px 5px 20px 5px;
+                border: 1px solid var(--input-border);
+                color: var(--text-color_section);
+                padding: 0 10px;
+                input::placeholder{
+                    font-size: 16px;
+                    line-height: 20px;
+                    font-weight: 500;
+                }
+            }
+        }
+        .form-btn{
+            width: 201px;
+            height: 65px;
+            border-radius: 30px 5px 30px 5px;
+            text-align: center;
+            text-transform: uppercase;
+            color: var(--text-color_section);
+            background-color: var(--btn-bg_color);
+            border: none;
+            margin: 20px 0;
+            font-size: 18px;
+            line-height: 26px;
+            font-weight: 700;
+        }
+    }
+    
+}
+@media only screen and (max-width: 840px){
+    .form{
+        width: 100%;
+        height: 100%;
+        font-family: 'Inter', sans-serif;
+        text-align: center;
+        padding: 60px 20px;
+        background-image: none;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100% 100%;
+        border-radius: 40px;
+        .form-text{
+            font-size: 18px;
+            line-height: 22px;
+            color: var(--btn-bg_color);
+            text-transform: uppercase;
+            font-weight: 700;
+            margin: 0;
+        }
+        .form-title{
+            width: 90%;
+            font-size: 40px;
+            line-height: 56px;
+            font-weight: 700;
+            color: var(--text-color_section);
+            text-transform: uppercase;
+            margin: 0;
+            margin: 10px 0;
+        }
+        .text{
+            width: 85%;
+            font-size: 18px;
+            line-height: 25px;
+            font-weight: 500;
+            color: var(--text-color_section);
+            margin: 15px 0;;
+        }
+        .form-form{
+            width: 60%;
+            display: block;
+            margin: 0 auto;
+            label{
+                font-size: 18px;
+                line-height: 25px;
+                font-weight: 500;
+                margin-right: 50px;
+            }
+            input{
+                width: 345px;
+                height: 50px;
+                border-radius: 20px 5px 20px 5px;
+                border: 1px solid var(--input-border);
+                color: var(--text-color_section);
+                padding: 0 10px;
+                margin: 20px 0;
+                input::placeholder{
+                    font-size: 16px;
+                    line-height: 20px;
+                    font-weight: 500;
+                }
+            }
+        }
+        .form-btn{
+            width: 201px;
+            height: 65px;
+            border-radius: 30px 5px 30px 5px;
+            text-align: center;
+            text-transform: uppercase;
+            color: var(--text-color_section);
+            background-color: var(--btn-bg_color);
+            border: none;
+            margin: 20px 0;
+            font-size: 18px;
+            line-height: 26px;
+            font-weight: 700;
+            margin: 0 auto;
+        }
+    }
+}
+@media only screen and (max-width: 970px){
+    .contact{
+        width: 100%;
+        height: 100%;
+        .contact-inner{
+            .contact-text{
+                text-align: left;
+                font-size: 18px;
+                line-height: 22px;
+                color: var(--btn-bg_color);
+                text-transform: uppercase;
+                font-weight: 700;
+            }
+            .contact-title{
+                text-align: left;
+                margin: 15px 0;
+                font-size: 40px;
+                line-height: 49px;
+                color: var(--text-color_section);
+                text-transform: uppercase;
+            }
+            .contact-list{
+                text-align: left;
+                padding-left: 0px;
+                width: 90%;
+                display: grid;
+                grid-template-columns: auto auto;
+                .contact-item1, .contact-item2, .contact-item3, .contact-item4, .contact-item5, .contact-item6{
+                    padding: 10px;
+                    border-right: 1px solid;
+                    border-left: none;
+                }
+                .contact-item1, .contact-item2, .contact-item3, .contact-item4{
+                    border-bottom: 1px solid;
+                    border-right: 1px solid;
+                }
+            }
+        }
+    }
+}

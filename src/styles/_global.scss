@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+// container
+.container{
+    // width: 1920px;
+    margin: 0 auto;
+    // padding: 0 15px;
+    left: 0;
+    top: 0;
+    font-family: 'Inter', sans-serif;
+}
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+html, body{
+  scroll-behavior: smooth;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+}
+
